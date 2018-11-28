@@ -1,0 +1,2 @@
+FIRST(Exp) = FIRST(Or) = FIRST(Xor) = {(, !, id}
+FIRST(And) = {!} | FIRST(EXP)

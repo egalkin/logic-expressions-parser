@@ -1,0 +1,4 @@
+FOLLOW(Exp) = FOLLOW(Exp') = {), $}
+FOLLOW(Or) = FOLLOW(Or') = {|, ), $}
+FOLLOW(Xor) = FOLLOW(Xor') = {^, |, ), $}
+FOLLOW(And) = {!, ^, |, ), $}

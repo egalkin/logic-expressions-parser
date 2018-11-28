@@ -1,0 +1,5 @@
+Exp -> Exp | Or
+Or -> Or ^ Xor
+Xor -> Xor & And
+And -> !And | Not
+Not -> (Exp) | id

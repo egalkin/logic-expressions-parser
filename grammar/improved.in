@@ -1,0 +1,10 @@
+Exp -> Impl Exp'
+Exp' -> -> Impl Exp' | e
+Impl -> Or Impl'
+Impl' -> | Or Impl' | e
+Or -> Xor Or'
+Or' -> ^ Xor Or^ | e
+Xor -> And Xor'
+Xor' -> & And Xor' | e
+And -> ! And | Not
+Not -> (Exp) | id
