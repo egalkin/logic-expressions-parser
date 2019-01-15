@@ -1,2 +1,2 @@
-# logical-expressions-parser
-Parser of C-style logical expressions.
+# logic-expressions-parser
+Parser of C-style logic expressions.
